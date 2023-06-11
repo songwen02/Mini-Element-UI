@@ -1,0 +1,25 @@
+{
+  "name": "yan-Ui",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "github-markdown-css": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.22",
+    "prismjs": "^1.28.0",
+    "vue": "^3.0.0-rc.1",
+    "vue-router": "4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "fs": "^0.0.1-security",
+    "marked": "^4.0.16",
+    "sass": "1.26.10",
+    "vite": "^1.0.0-rc.1"
+  }
+}

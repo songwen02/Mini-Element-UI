@@ -1,0 +1,174 @@
+[class^="gulu-"], [class*=" gulu-"] {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  // 为什么这样写 font-family
+  // 答案见 https://github.com/zenozeng/fonts.css/
+  font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+
+}
+
+$hoverColor: #40a9ff;
+.gulu-input {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: #000000d9;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all .3s;
+
+  &:hover {
+    border-color: $hoverColor;
+    border-right-width: 1px !important;
+  }
+
+  &:focus {
+    outline: $hoverColor;
+    border-color: $hoverColor;
+    border-right-width: 1px !important;
+  }
+}
+
+*::-webkit-input-placeholder {
+  color: rgb(217, 217, 217)
+}
+
+.gulu-input-wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  padding: 0 10px 0 0;
+  color: #000000d9;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all .3s;
+  display: inline-flex;
+  align-items: center;
+
+  > input {
+    border: none;
+    outline: none;
+  }
+
+  &:hover {
+    border-color: $hoverColor;
+    border-right-width: 1px !important;
+  }
+
+  &:focus-within {
+    outline: $hoverColor;
+    border-color: $hoverColor;
+    border-right-width: 1px !important;
+  }
+}
+
+.svgContainer {
+  cursor: pointer;
+}
+
+$numArr: 50, 80, 100, 120;
+@each $num in $numArr {
+  .height-#{$num} {
+    height: #{$num}px;
+    line-height: #{$num}px;
+  }
+}
+
+code {
+  padding: 0.065em 0.4em;
+  margin: 0 1px;
+  color: #ff502c;
+  font-size: .87em;
+  font-family: Menlo, Monaco, Consolas, Courier New, monospace;
+  font-weight: 500;
+  background-color: #fff5f5;
+  border: 1px solid #f0f0f0;
+  border-radius: 3px;
+}
+
+.z-loading-relative {
+  position: relative;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.demoHeader {
+  font-size: 2rem;
+  color: #606266;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  margin-top: 2rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.my-2 {
+  margin: 0.5rem 0;
+}
+
+.w-20 {
+  width: 85px;
+  height: 24px;
+  display: inline-block;
+
+}
+
+.common-layout {
+  .z-aside {
+    background-color: #d9ecff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .z-main {
+    background-color: #ecf5ff;
+    color: #303133;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .z-header {
+    background-color: #c6e2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .z-footer {
+    background-color: #c6e2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+}
+
