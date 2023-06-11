@@ -1,14 +1,10 @@
 <template>
   <div class="topNav">
-    <router-link to="/" class="logo">
-      <svg class="icon">
-        <use xlink:href="#icon-NavZ"></use>
-      </svg>
-    </router-link>
+    <router-link to="/" class="logo">MIni-El </router-link>
 
     <ul class="menu">
       <li>
-        <a href="https://github.com/YMingF/Yan-Ui" target="_blank">
+        <a href="https://github.com/songwen02/Mini-Element-UI" target="_blank">
           <svg class="githubIcon">
             <use xlink:href="#icon-github"></use>
           </svg>

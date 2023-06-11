@@ -1,4 +1,4 @@
-# Mini-Element UI 文档
+# Mini-  UI 文档
 
 Mini-Element UI 是一个轻量级、可定制的前端 UI 框架，基于 Vue.js 和 Element UI 构建。它提供了丰富的组件和工具，帮助开发者快速搭建美观、高效的用户界面。
 
@@ -48,4 +48,4 @@ export default {
 
 ## 文档
 
-详细的使用文档和组件示例可以在 Mini-Element UI 文档网站 中找到。
+详细的使用文档和组件示例可以在 [Mini-Element UI](https://songwen02.github.io/mini-el/#/) 文档网站 中找到。
