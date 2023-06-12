@@ -1,6 +1,6 @@
 {
-  "name": "yan-Ui",
-  "version": "0.0.0",
+  "name": "Mini-Element-Ui",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

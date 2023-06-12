@@ -1,6 +1,6 @@
 <template>
   <div class="topNav">
-    <router-link to="/" class="logo">MIni-El </router-link>
+    <router-link to="/" class="logo">Mini-El </router-link>
 
     <ul class="menu">
       <li>
